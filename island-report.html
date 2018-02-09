@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='UTF-8'>
+<title>Generate Report Mutant</title>
+<style type='text/css'>
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#999;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#999;color:#444;background-color:#F7FDFA;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#999;color:#fff;background-color:#26ADE4;}
+.tg .tg-9hbo{font-weight:bold;vertical-align:top}
+.tg .tg-yw4l{vertical-align:top}
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 10px 15px;
+  text-align: center;
+}
+</style>
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' integrity='sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u' crossorigin='anonymous'>
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css' integrity='sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp' crossorigin='anonymous'>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js' integrity='sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa' crossorigin='anonymous'></script>
+</head>
+<body>
+<div class='container'>
+<div class='starter-template'>
+<h1>Mutant Generate Report</h1>
+<h2>Percentage of mutation by mutant</h2><br/>
+comparisonOperators=0.7
+minusOperator=0.5
+notEqualOperator=0.3
+<br/><font color='red'>If the name of mutant doesn't appear the coverage of mutating is 100%</font><br/>
+ 
+<br/>
+<h3>Tests of 'mutant_AddOperatorMutator'</h3>
+<br/>
+<h4><font color='red'>Broken Test</font></h4><br/>
+<br/>
+<h3>Tests of 'mutant_ComparisonOperatorsMutator'</h3>
+<br/>
+<center><table class='tg'>
+      <tr>
+        <th class='tg-9hbo'>Tests</th>
+        <th class='tg-9hbo'>Errors</th>
+        <th class='tg-9hbo'>Failures</th>
+        <th class='tg-9hbo'>Skipped</th>
+        <th class='tg-9hbo'>SucessRate</th>
+      </tr>
+      <tr>
+        <td class='tg-yw4l'>167</td>
+        <td class='tg-yw4l'>10</td>
+        <td class='tg-yw4l'>2</td>
+        <td class='tg-yw4l'>0</td>
+        <td class='tg-yw4l'>92 %</td>
+      </tr>
+    </table></center>
+<br/><a href='file:///d/Maxime/Cours/Polytech/SI4/DevOps/devOpsMutants/mutant_ComparisonOperatorsMutator/target/site/surefire-report.html' target='_blank'>Rapport test de mutant_ComparisonOperatorsMutator</a><br/>
+ 
+ 
+<br/>
+<h3>Tests of 'mutant_EmptyMutator'</h3>
+<br/>
+<center><table class='tg'>
+      <tr>
+        <th class='tg-9hbo'>Tests</th>
+        <th class='tg-9hbo'>Errors</th>
+        <th class='tg-9hbo'>Failures</th>
+        <th class='tg-9hbo'>Skipped</th>
+        <th class='tg-9hbo'>SucessRate</th>
+      </tr>
+      <tr>
+        <td class='tg-yw4l'>167</td>
+        <td class='tg-yw4l'>0</td>
+        <td class='tg-yw4l'>0</td>
+        <td class='tg-yw4l'>0</td>
+        <td class='tg-yw4l'>100 %</td>
+      </tr>
+    </table></center>
+<br/><a href='file:///d/Maxime/Cours/Polytech/SI4/DevOps/devOpsMutants/mutant_EmptyMutator/target/site/surefire-report.html' target='_blank'>Rapport test de mutant_EmptyMutator</a><br/>
+ 
+ 
+<br/>
+<h3>Tests of 'mutant_MinusOperatorMutator'</h3>
+<br/>
+<center><table class='tg'>
+      <tr>
+        <th class='tg-9hbo'>Tests</th>
+        <th class='tg-9hbo'>Errors</th>
+        <th class='tg-9hbo'>Failures</th>
+        <th class='tg-9hbo'>Skipped</th>
+        <th class='tg-9hbo'>SucessRate</th>
+      </tr>
+      <tr>
+        <td class='tg-yw4l'>167</td>
+        <td class='tg-yw4l'>3</td>
+        <td class='tg-yw4l'>0</td>
+        <td class='tg-yw4l'>0</td>
+        <td class='tg-yw4l'>98 %</td>
+      </tr>
+    </table></center>
+<br/><a href='file:///d/Maxime/Cours/Polytech/SI4/DevOps/devOpsMutants/mutant_MinusOperatorMutator/target/site/surefire-report.html' target='_blank'>Rapport test de mutant_MinusOperatorMutator</a><br/>
+ 
+ 
+<br/>
+<h3>Tests of 'mutant_NotEqualOperatorMutator'</h3>
+<br/>
+<center><table class='tg'>
+      <tr>
+        <th class='tg-9hbo'>Tests</th>
+        <th class='tg-9hbo'>Errors</th>
+        <th class='tg-9hbo'>Failures</th>
+        <th class='tg-9hbo'>Skipped</th>
+        <th class='tg-9hbo'>SucessRate</th>
+      </tr>
+      <tr>
+        <td class='tg-yw4l'>167</td>
+        <td class='tg-yw4l'>46</td>
+        <td class='tg-yw4l'>2</td>
+        <td class='tg-yw4l'>0</td>
+        <td class='tg-yw4l'>71 %</td>
+      </tr>
+    </table></center>
+<br/><a href='file:///d/Maxime/Cours/Polytech/SI4/DevOps/devOpsMutants/mutant_NotEqualOperatorMutator/target/site/surefire-report.html' target='_blank'>Rapport test de mutant_NotEqualOperatorMutator</a><br/>
+ 
+ 
+</div></div></body>
+</html>
